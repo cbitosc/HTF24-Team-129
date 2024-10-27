@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "space-community-frontend",
+			"problemMatcher": [],
+			"label": "npm: start - space-community-frontend",
+			"detail": "react-scripts start"
+		},
+		{
+			"type": "npm",
+			"script": "test",
+			"path": "backend",
+			"group": "test",
+			"problemMatcher": [],
+			"label": "npm: test - backend",
+			"detail": "echo \"Error: no test specified\" && exit 1"
+		}
+	]
+}
